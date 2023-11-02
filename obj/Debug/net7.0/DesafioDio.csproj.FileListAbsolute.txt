@@ -1,0 +1,14 @@
+D:\DesafioDio\bin\Debug\net7.0\DesafioDio.exe
+D:\DesafioDio\bin\Debug\net7.0\DesafioDio.deps.json
+D:\DesafioDio\bin\Debug\net7.0\DesafioDio.runtimeconfig.json
+D:\DesafioDio\bin\Debug\net7.0\DesafioDio.dll
+D:\DesafioDio\bin\Debug\net7.0\DesafioDio.pdb
+D:\DesafioDio\obj\Debug\net7.0\DesafioDio.GeneratedMSBuildEditorConfig.editorconfig
+D:\DesafioDio\obj\Debug\net7.0\DesafioDio.AssemblyInfoInputs.cache
+D:\DesafioDio\obj\Debug\net7.0\DesafioDio.AssemblyInfo.cs
+D:\DesafioDio\obj\Debug\net7.0\DesafioDio.csproj.CoreCompileInputs.cache
+D:\DesafioDio\obj\Debug\net7.0\DesafioDio.dll
+D:\DesafioDio\obj\Debug\net7.0\refint\DesafioDio.dll
+D:\DesafioDio\obj\Debug\net7.0\DesafioDio.pdb
+D:\DesafioDio\obj\Debug\net7.0\DesafioDio.genruntimeconfig.cache
+D:\DesafioDio\obj\Debug\net7.0\ref\DesafioDio.dll
