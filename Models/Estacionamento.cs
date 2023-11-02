@@ -1,12 +1,12 @@
 namespace DesafioDio.Models;
-
+/*Projeto Criado Por Luiz Domingo Da Silva 02/11/2023 - Desafio Dio.Io */
 public class Estacionamento
 {
     public decimal PrecoInicial { get; set; }
     public decimal PrecoPorhora { get; set; }
     public List<string> Veiculos = new();
 
-    //Construtor Padrão
+    //Construtor Padrï¿½o
     public Estacionamento() { }
 
     //Contrutor com Argumentos
@@ -24,7 +24,7 @@ public class Estacionamento
 
             if (novoVeiculo.Length <= 7 || novoVeiculo.Length > 8)
             {
-                Console.WriteLine("Erro, Placa tem que ter 8 Caracteres Para Continuar o Cadastrao...");
+                Console.WriteLine("Erro, Placa tem que ter 8 Caracteres Para Continuar o Cadastro...");
                 Menu();
             }
             else
@@ -52,12 +52,12 @@ public class Estacionamento
             int valuePerHours = int.Parse(Console.ReadLine());
             decimal valueTotal = this.PrecoInicial + this.PrecoPorhora * valuePerHours;
             Veiculos.Remove(placa);
-            Console.WriteLine($"O veiculo de Placa {placa} Foi Removido Com Sucesso, o Valor de Estacionamento foi de R${Math.Round(valueTotal, 2)}");
+            Console.WriteLine($"O veiculo de Placa {placa.ToUpper()} Foi Removido Com Sucesso, o Valor de Estacionamento foi de R${Math.Round(valueTotal, 2)}");
             Menu();
         }
         else
         {
-            Console.WriteLine("Veiculo Não Cadastrado em Nosso Estacionamento, Verifique a Placa por Favor...");
+            Console.WriteLine("Veiculo Nï¿½o Cadastrado em Nosso Estacionamento, Verifique a Placa por Favor...");
             Console.WriteLine("\n");
             Menu();
         }
@@ -101,7 +101,7 @@ public class Estacionamento
 
             bool opcao = true;
             Console.WriteLine("---------------------------------\n");
-            Console.Write("Selecione uma Opção: ");
+            Console.Write("Selecione uma Opï¿½ï¿½o: ");
 
             while (opcao)
             {
@@ -128,7 +128,7 @@ public class Estacionamento
         }
         catch (Exception)
         {
-            Console.WriteLine("Escolha uma opção válida...");
+            Console.WriteLine("Escolha uma opï¿½ï¿½o vï¿½lida...");
             Menu();
         }
         Console.ReadKey();

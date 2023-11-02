@@ -1,4 +1,5 @@
 ﻿using DesafioDio.Models;
+Console.OutputEncoding = System.Text.Encoder.UTF8;
 
 Console.Write("Digite o Valor do Preço Inicial: ");
 decimal precoInicial = decimal.Parse(Console.ReadLine());
